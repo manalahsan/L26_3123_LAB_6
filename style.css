@@ -1,0 +1,92 @@
+body{
+background-image: url("green.jpe");
+font-family: 'Century Gothic', sans-serif;
+}
+#main{
+background-color: white;
+width:1000px;
+height:600px;
+margin-left: 230px;
+margin-top:50px;
+}
+.header{
+border-style: solid;
+border-color: white;
+border-width:11px;
+background-color: #9AEDB8;
+height:90px;
+line-height:0.5;
+}
+
+.header h1
+{
+text-align: right;
+margin-right: 12px;
+}
+.header h3
+{
+text-align: right;
+
+}
+#spatula, #cookie{
+background-color: #ABE0C2;
+border-style: solid;
+border-color: #84C29E;
+border-width:4px;
+
+
+}
+#spatula{
+margin-top:-150px;
+margin-left: 234px;
+width: 748px;
+height: 195px;
+
+}
+#cookie{
+width: 748px;
+height: 230px;
+margin-left: 234px;
+margin-top:12px;
+
+}
+#friends{
+text-align:auto;
+border-style: solid;
+border-color: #51995C;
+border-width:6px;
+background-color:#9FEDAA;
+width: 200px;
+height: 140px;
+margin-left: 10px;
+
+
+}
+img{
+width: 200px;
+height: 180px;
+margin-left:510px;
+margin-top:-120px;
+}
+.toro{
+margin-top:-210px;
+position: absolute;
+
+}
+.dashed{
+text-decoration-line: underline;
+text-decoration-style: dashed;
+text-decoration-color: red;
+
+}
+
+h1,h2,h3
+{
+color:teal;
+}
+p{
+color:#CF3E90;
+margin-right: 250px;
+padding:5px;
+
+}

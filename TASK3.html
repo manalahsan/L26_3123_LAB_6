@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hotel Reservation Form </title>
+<style>
+body{
+background-color:#D3D3D3;
+}
+h1{
+color:red;
+font-size:25px;
+white-space: nowrap;
+/*makes text in one line*/
+
+text-align: center;
+}
+table
+{
+margin:auto;
+background-color:#B5DAF5;
+
+}
+th,td{
+padding: 5px;
+border: 1px solid;
+}
+th{
+text-align:right;
+padding-left: 10px;
+}
+input[type="submit"]
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+</style>
+
+</head>
+
+<body>
+<form>
+<table>
+<caption><h1>Continental Hotel Reservation Form </h1><caption>
+
+<tr>
+<th> Name</th>
+<td><input type="text" placeholder="Enter your name"></td></tr>
+
+<tr>
+<th> Email</th>
+<td><input type="email" value="info@continental.pk"></td>
+</tr>
+
+<tr>
+<th> Mobile No</th>
+<td><input type="number" placeholder="Enter your cell number"></td>
+</tr>
+
+<tr>
+<th> Arrival Time</th>
+<td><input type="time" placeholder="Enter your arrival time"></td>
+</tr>
+
+<tr>
+<th> Departure</th>
+
+<td colspan="2">
+<input type="text">
+<input type="time">
+</td>
+</tr>
+<tr>
+<th> Room Type</th>
+<td>
+<input type="radio" class="room">Single
+<input type="radio" class="room">Double<br>
+<input type="radio" class="room">Presidential Suite
+</td>
+</tr>
+
+<tr>
+<th> Preferences</th>
+<td>
+<input type="checkbox">Non-Smoking<br>
+<input type="checkbox">Internet<br>
+<input type="checkbox">Firm Mattress
+</td></tr>
+
+<tr>
+<th> Mode of Payment</th>
+<td>
+<input type="checkbox">Cash
+<input type="checkbox">Check<br>
+<input type="checkbox">Credit Card
+<select id="card" name="Select Card">
+<option>JS Card</option>
+<option>Bank Alfalah</option>
+<option>NayaPay</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="Send Data"></td>
+</tr>
+
+
+
+
+</table>
+</form>
+
+
+</body>
+</html>
